@@ -1,4 +1,4 @@
-# Tang server on a pi zero with lcd display
+# Tang server using raspbian on a pi zero w with an oled display
 
 ![alt text](https://github.com/pveronneau/pi-zero-tang/blob/master/example.jpeg "Example OLED output")
 
