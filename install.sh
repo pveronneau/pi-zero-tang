@@ -119,7 +119,7 @@ Description=Script to run the OLED screen to show tangd monitoring
 [Service]
 Type=simple
 ExecStart=/opt/tang-oled/tang-oled.py
-ExecReload=/bin/kill -HUP $MAINPID
+ExecReload=/bin/kill -HUP \$MAINPID
 KillMode=process
 Restart=on-failure
 RestartSec=42s
